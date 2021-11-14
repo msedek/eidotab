@@ -1,0 +1,29 @@
+{
+  "name": "tabsrv",
+  "version": "1.0.0",
+  "description": "eidotab web services",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app echo \"\\x1Bc\""
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "form-data": "^2.3.3",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.23",
+    "mongoose": "^5.4.17",
+    "mongoose-auto-increment": "^5.0.1",
+    "node-thermal-printer": "^2.0.1",
+    "nodemon": "^1.18.10",
+    "request": "^2.88.0",
+    "socket.io": "^2.2.0",
+    "underscore": "^1.9.1",
+    "written-number": "^0.8.1"
+  },
+  "author": "mSedek",
+  "license": "ISC"
+}
